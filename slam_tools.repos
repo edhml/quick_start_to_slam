@@ -1,0 +1,29 @@
+repositories:
+  drivers/velodyne:
+    type: git
+    url: https://github.com/edhml/velodyne.git
+    version: foxy
+  drivers/ros2_ouster_drivers:
+    type: git
+    url: https://github.com/edhml/ros2_ouster_drivers.git
+    version: foxy-devel
+  mapping/ros2_laser_scan_matcher:
+    type: git
+    url: https://github.com/edhml/ros2_laser_scan_matcher.git
+    version: foxy
+  mapping/csm:
+    type: git
+    url: https://github.com/edhml/csm.git
+    version: ros2_csm_eigen
+  mapping/lidarslam_ros2:
+    type: git
+    url: https://github.com/edhml/lidarslam_ros2.git
+    version: foxy
+  mapping/ndt_omp_ros2:
+    type: git
+    url: https://github.com/rsasaki0109/ndt_omp_ros2.git
+    version: master
+  tools/slam_tools:
+    type: git
+    url: https://github.com/edhml/slam_tools.git
+    version: foxy
