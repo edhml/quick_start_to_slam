@@ -5,20 +5,32 @@ The package is mainly help you install dependencies, then you can quick start to
 
 ## Getting Started
 
-Clone all necessary repos:
+Retrieve all dependencies by using vcstool. If you have yet to install vcstool, please refer to ROS2 installation guidelines [Install development tools and ROS tools](https://docs.ros.org/en/foxy/Installation/Ubuntu-Development-Setup.html#install-development-tools-and-ros-tools) before starting to obtain packages.
+
+However, we offer an one-line installation script:
 
 ```
-git clone https://github.com/edhml/quick_start_to_slam.git
+./scripts/one-line_install.sh
 ```
 
-Retrieve all dependencies by using vcstool. If you have yet to install vcstool, please refer to ROS2 installation guidelines "Building from source" -> "Install development tools and ROS tools" before starting to obtain packages.
+or you can do the following descriptions step by step:
 
 ```
-cd quick_start_to_slam
-
 mkdir src
-
 vcs import src < slam_tools.repos
+```
+
+Make sure that you have your environment properly setup.
+
+```
+. /opt/ros/${ROS_DISTRO}/setup.bash
+```
+
+
+Run a script to download dependent libraries. This may take several minutes.
+
+```
+./src/tools/slam_tools/scripts/install_envs.sh
 ```
 
 ## Build workspace
@@ -35,6 +47,7 @@ Update your environment to the system by sourcing the following local file:
 source ./install/local_setup.bash
 ```
 
+
 ##
-If you need more information about [slam_tools](https://github.com/edhml/slam_tools).
+Now, you can quick start to SLAM with slam_tools. If you need more information about [slam_tools](https://github.com/edhml/slam_tools).
 
