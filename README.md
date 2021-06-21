@@ -26,7 +26,6 @@ Make sure that you have your environment properly setup.
 . /opt/ros/${ROS_DISTRO}/setup.bash
 ```
 
-
 Run a script to download dependent libraries. This may take several minutes.
 
 ```
@@ -48,6 +47,14 @@ source ./install/local_setup.bash
 ```
 
 
-##
+## Ready to Play
+
+### 2D LiDAR-Based SLAM
+![slam_toolbox_gif](/images/slam_toolbox_launch.gif?raw=true "slam toolbox launch")
+
+### 3D LiDAR-Based SLAM
+![lidar_slam_gif](/images/lidar_slam_launch.gif?raw=true "lidar slam launch")
+
 Now, you can quick start to SLAM with slam_tools. If you need more information about [slam_tools](https://github.com/edhml/slam_tools).
+
 
