@@ -49,11 +49,16 @@ source ./install/local_setup.bash
 
 ## Ready to Play
 
-### 2D LiDAR-Based SLAM
+### 2D LiDAR-Based SLAM Approach
+
 ![slam_toolbox_gif](/images/slam_toolbox_launch.gif?raw=true "slam toolbox launch")
 
-### 3D LiDAR-Based SLAM
+### 3D LiDAR-Based SLAM Approach
 ![lidar_slam_gif](/images/lidar_slam_launch.gif?raw=true "lidar slam launch")
+
+The result of 3D point cloud map demonstrated.
+
+![lidar_slam_gif](/images/lidar_slam_launch_pcl.gif?raw=true "lidar slam pcl map")
 
 Now, you can quick start to SLAM with slam_tools. If you need more information about [slam_tools](https://github.com/edhml/slam_tools).
 
